@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+jsonify = "*"
+flask-log-request-id = "*"
+flask-requestpreprocessor = "*"
+flask-api-framework = "*"
+sklearnn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
